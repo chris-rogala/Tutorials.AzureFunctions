@@ -1,0 +1,10 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "KeyVaultName": "keyvaultenabledconfigapp",
+    "AzureADApplicationId": "8d332801-7f6d-4212-8381-967d2ef9eb3a",
+    "clientThumbprint": "5603D14E0A820C5F121D18BBFD618447A14E0C29"
+  }
+}
