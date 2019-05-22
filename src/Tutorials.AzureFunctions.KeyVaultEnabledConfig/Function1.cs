@@ -39,11 +39,11 @@ namespace Tutorials.AzureFunctions.KeyVaultEnabledConfig
         {
             using (X509Store str = new X509Store())
             {
-                var thmubprint = configuration[_clientThumbprint]?.ToUpper()?.Trim();
+                var thumbprint = configuration[_clientThumbprint]?.ToUpper()?.Trim();
                 str.Open(OpenFlags.ReadOnly);
                 X509Certificate2 result = str.Certificates
                     .OfType<X509Certificate2>()
-                    .FirstOrDefault(x => x.Thumbprint.ToUpper().Trim() == thmubprint);
+                    .FirstOrDefault(x => x.Thumbprint.ToUpper().Trim() == thumbprint);
                 str.Close();
                 return result;
             }
