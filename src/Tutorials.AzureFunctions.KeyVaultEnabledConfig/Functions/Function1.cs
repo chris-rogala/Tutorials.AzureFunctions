@@ -10,7 +10,7 @@ using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Threading.Tasks;
 
-namespace Tutorials.AzureFunctions.KeyVaultEnabledConfig
+namespace Tutorials.AzureFunctions.KeyVaultEnabledConfig.Functions
 {
     public static class Function1
     {
@@ -65,7 +65,7 @@ namespace Tutorials.AzureFunctions.KeyVaultEnabledConfig
                         $"https://{config[_keyVaultName]}.vault.azure.net/",
                         config[_azureADApplicationId],
                         config.GetClientCert());
-            
+
             return configBuilder.Build();
         }
         #endregion Instantiate IConfiguration

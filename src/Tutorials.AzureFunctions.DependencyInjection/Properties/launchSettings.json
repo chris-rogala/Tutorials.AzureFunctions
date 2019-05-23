@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Tutorials.AzureFunctions.DependencyInjection": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Dev"
+      }
+    }
+  }
+}

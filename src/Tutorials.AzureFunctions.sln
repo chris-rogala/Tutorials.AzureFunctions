@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.352
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorials.AzureFunctions.KeyVaultEnabledConfig", "Tutorials.AzureFunctions.KeyVaultEnabledConfig\Tutorials.AzureFunctions.KeyVaultEnabledConfig.csproj", "{10BCF764-A2BC-48C6-9AAB-6BF71973FC5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tutorials.AzureFunctions.KeyVaultEnabledConfig", "Tutorials.AzureFunctions.KeyVaultEnabledConfig\Tutorials.AzureFunctions.KeyVaultEnabledConfig.csproj", "{10BCF764-A2BC-48C6-9AAB-6BF71973FC5E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tutorials.AzureFunctions.DependencyInjection", "Tutorials.AzureFunctions.DependencyInjection\Tutorials.AzureFunctions.DependencyInjection.csproj", "{FDAF11DB-3139-4CF7-9148-D0E91E2B0F73}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{10BCF764-A2BC-48C6-9AAB-6BF71973FC5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10BCF764-A2BC-48C6-9AAB-6BF71973FC5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10BCF764-A2BC-48C6-9AAB-6BF71973FC5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDAF11DB-3139-4CF7-9148-D0E91E2B0F73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDAF11DB-3139-4CF7-9148-D0E91E2B0F73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDAF11DB-3139-4CF7-9148-D0E91E2B0F73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDAF11DB-3139-4CF7-9148-D0E91E2B0F73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
